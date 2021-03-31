@@ -1,2 +1,2 @@
 # MicroPython_TTGO_FMRadio
-hello
+This is MicroPython based FMRadio build on TTGO-TDisplay
