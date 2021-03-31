@@ -173,7 +173,6 @@ def main():
 
     s,poller = getUdp_poll_init(ip)
     
-    
 
     radio_setFreq(radio, 99.1) 
     #printScreen("99.1 MHz",display, 20, 20, fg = st7789.WHITE, bg = st7789.BLACK)
