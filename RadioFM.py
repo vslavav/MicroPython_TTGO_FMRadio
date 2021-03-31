@@ -164,7 +164,8 @@ def main():
 
     display = display_init()
     ip = connect2WiFi(display)
-    utime.sleep(0.5)
+    printScreen(ip,display,font_30, 20, 20, fg = st7789.WHITE, bg = st7789.BLACK)
+    utime.sleep(2)
     setLocalTime()
     utime.sleep(2)
     display.fill(st7789.BLACK)
